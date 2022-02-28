@@ -96,6 +96,9 @@
 .flow__login_wrapper .forgot_password {
    font-family: "IBM Plex Sans", sans-serif;
 }
+.flow_input_container {
+    margin-top: 60px;
+}
    @media (max-width: 639px) {
         .flow__login_wrapper .page-title {
             padding-top: 50px;
@@ -105,7 +108,7 @@
         }
         .flow__login_wrapper form {
             padding: 0 auto;
-            padding: 0 10px 50px;
+            padding: 20px 10px 50px;
         }
         .flow_input_container label {
             font-size: 18px;
@@ -122,11 +125,7 @@
             font-size: 22px;
             width: 100%;
         }
+        .flow_input_container {
+            margin-top: 40px;
+        }
     }
-    .flow_input_container {
-        margin-top: 60px;
-    }
-
-
-
-   
